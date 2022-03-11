@@ -1,2 +1,2 @@
 #!/bin/bash
-Variables, if, elseif
+variables if else if
