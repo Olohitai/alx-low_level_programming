@@ -7,12 +7,24 @@
  */
 int main(void)
 {
-int ch;
+	int letter;
 
-for (ch = 'a'; ch <= 'z'; ch++)
-	putchar(ch);
-for (ch = 'A'; ch <= 'Z'; ch++)
-	putchar(ch);
+	/* print alphabet in lowercase */
+	letter = 'a';
+	while (letter <= 'z')
+	{
+		putchar(letter);
+
+		letter++;
+	}
+
+	/* Print alphabet in uppercase */
+	letter = 'A';
+	while (letter <= 'Z')
+	{
+		putchar(letter);
+		letter;
+	}
 	putchar('\n');
-return (0);
+	return (0);
 }
